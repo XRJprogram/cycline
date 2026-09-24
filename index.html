@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>CYCLINE - Modern Flat Rhythm</title>
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+<body>
+  <div id="app">
+    <canvas id="gameCanvas"></canvas>
+
+    <!-- 1. TITLE SCENE -->
+    <div id="sceneTitle" class="scene-view active">
+      <div class="title-box">
+        <div class="title-badge">CIRCULAR RHYTHM</div>
+        <h1 class="game-logo">CYCLINE</h1>
+        <div class="game-tagline">A CIRCULAR RHYTHM ODYSSEY</div>
+        <div class="title-prompt">PRESS ANY KEY OR TAP TO START</div>
+      </div>
+    </div>
+
+    <!-- 2. SONG SELECT SCENE: ARC WHEEL -->
+    <div id="sceneSelect" class="scene-view">
+      <header class="select-header">
+        <div class="select-title-group">
+          <span class="select-badge">TRACK SELECT</span>
+        </div>
+        <div class="header-actions">
+          <button id="btnBackToTitle" class="flat-btn">⬅ 返回</button>
+        </div>
+      </header>
+
+      <!-- Large Arc Wheel Stage (Fluid swipe / drag across tracks) -->
+      <div class="arc-wheel-container" id="arcWheelContainer">
+        <div class="arc-wheel-track" id="arcWheelTracks">
+          <!-- Dynamically positioned along the circular arc -->
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. GAMEPLAY SCENE -->
+    <div id="sceneGameplay" class="scene-view">
+      <header class="gameplay-nav">
+        <div>
+          <div class="brand-title" id="gameplayTitle">CYCLINE</div>
+          <div class="brand-sub" id="gameplayMeta">SINGLE TRACK</div>
+        </div>
+        <div class="hud-meta-right">
+          <div class="hud-score-row">
+            <span class="hud-badge badge-ap" id="hudTrackBadge">AP</span>
+            <span class="hud-score" id="scoreVal">0000000</span>
+          </div>
+          <div class="hud-meta" id="accVal">100.0% • 0.0s</div>
+        </div>
+      </header>
+
+      <footer class="gameplay-bottom">
+        <div style="display: flex; gap: 10px;">
+          <button id="btnGameplayExit" class="flat-btn interactive-el">⬅ 退出</button>
+          <button id="btnGameplayRestart" class="flat-btn interactive-el">↺ 重试</button>
+        </div>
+        <div style="display: flex; gap: 10px;">
+          <button id="btnGameplayPause" class="flat-btn interactive-el">⏸ 暂停</button>
+          <button id="btnGameplayAuto" class="flat-btn interactive-el">✦ AUTO: OFF</button>
+        </div>
+      </footer>
+    </div>
+
+    <!-- 4. RESULT SCENE -->
+    <div id="sceneResult" class="scene-view">
+      <div class="result-card">
+        <div class="result-rank-wrap">
+          <div class="result-rank rank-s" id="resRank">S</div>
+          <div class="result-badge badge-ap" id="resBadge" style="display: none;">✦ ALL PERFECT ✦</div>
+        </div>
+        <div class="result-song-title" id="resSongTitle">Clockwork Rhythm</div>
+        <div class="result-score" id="resScore">0985420</div>
+
+        <div class="result-stats-grid">
+          <div class="stat-item"><span>ACCURACY</span><span id="resAcc">99.2%</span></div>
+          <div class="stat-item"><span>MAX COMBO</span><span id="resMaxCombo">142</span></div>
+          <div class="stat-item"><span>PERFECT</span><span id="resPerfect" style="color:#20bf6b;">138</span></div>
+          <div class="stat-item"><span>GREAT</span><span id="resGreat" style="color:#0984e3;">4</span></div>
+          <div class="stat-item"><span>GOOD</span><span id="resGood" style="color:#f7b731;">0</span></div>
+          <div class="stat-item"><span>MISS</span><span id="resMiss" style="color:#d63031;">0</span></div>
+        </div>
+
+        <div class="result-actions">
+          <button id="btnResultContinue" class="flat-btn primary" style="min-width: 220px; font-size: 1.15rem; padding: 12px 36px;">继续</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./src/main.ts"></script>
+</body>
+</html>

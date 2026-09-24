@@ -1,0 +1,298 @@
+@font-face {
+  font-family: 'Uiua386';
+  src: url('/fonts/Uiua386.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-select: none;
+  font-family: 'Uiua386', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #f0f5fa;
+  font-family: 'Uiua386', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-variant-numeric: tabular-nums;
+  color: #1a2a3a;
+}
+
+#editorApp {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+canvas#editorCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.editor-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px 24px;
+  pointer-events: none;
+}
+
+/* Common Flat Buttons */
+.flat-btn {
+  background: #ffffff;
+  color: #1e3799;
+  border: 2.5px solid #1e3799;
+  border-radius: 999px;
+  padding: 8px 18px;
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  box-shadow: 0 4px 0 #1e3799;
+  transition: transform 0.08s ease, box-shadow 0.08s ease, background 0.1s ease;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.flat-btn:hover {
+  background: #f7faff;
+}
+
+.flat-btn:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #1e3799;
+}
+
+.flat-btn.primary {
+  background: #0984e3;
+  color: #ffffff;
+  border-color: #1e3799;
+}
+
+.flat-btn.primary:hover {
+  background: #00a8ff;
+}
+
+.flat-btn.active {
+  background: #00cec9;
+  color: #ffffff;
+  border-color: #1e3799;
+}
+
+.flat-btn.danger {
+  background: #e74c3c;
+  color: #ffffff;
+  border-color: #1e3799;
+}
+
+/* 1. Editor Header */
+.editor-header {
+  pointer-events: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  border: 2.5px solid #1e3799;
+  border-radius: 18px;
+  padding: 10px 18px;
+  box-shadow: 0 4px 0 #1e3799;
+  width: 100%;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.editor-brand {
+  font-size: 1.15rem;
+  font-weight: 900;
+  color: #1e3799;
+}
+
+.editor-stats {
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: #74b9ff;
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Consolas, monospace, sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+
+.header-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+/* 2. Metadata Bar */
+.editor-meta-bar {
+  pointer-events: auto;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.95);
+  border: 2px solid #1e3799;
+  border-radius: 14px;
+  padding: 8px 16px;
+  margin-top: 10px;
+  box-shadow: 0 3px 0 #1e3799;
+  align-self: flex-start;
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: #1e3799;
+}
+
+.meta-item input, .meta-item select {
+  border: 2px solid #1e3799;
+  border-radius: 8px;
+  padding: 4px 8px;
+  font-weight: 700;
+  font-size: 0.82rem;
+  background: #f0f5fa;
+  color: #1e3799;
+  outline: none;
+}
+
+.meta-item input:focus, .meta-item select:focus {
+  background: #ffffff;
+  border-color: #0984e3;
+}
+
+/* 3. Bottom Bar */
+.editor-bottom-bar {
+  pointer-events: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #ffffff;
+  border: 2.5px solid #1e3799;
+  border-radius: 20px;
+  padding: 14px 22px;
+  box-shadow: 0 4px 0 #1e3799;
+  max-width: 760px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.timeline-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: #1e3799;
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Consolas, monospace, sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+
+.timeline-row input[type="range"] {
+  flex: 1;
+  accent-color: #0984e3;
+  cursor: pointer;
+  height: 8px;
+}
+
+.tools-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.note-type-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.type-btn {
+  background: #f0f5fa;
+  color: #1e3799;
+  border: 2px solid #1e3799;
+  border-radius: 8px;
+  padding: 4px 10px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.type-btn.selected {
+  background: #0984e3;
+  color: #ffffff;
+  border-color: #1e3799;
+}
+
+.snap-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.snap-btn {
+  background: #f0f5fa;
+  color: #1e3799;
+  border: 2px solid #1e3799;
+  border-radius: 8px;
+  padding: 4px 10px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.snap-btn.selected {
+  background: #0984e3;
+  color: #ffffff;
+  border-color: #1e3799;
+}
+
+.cycle-btn {
+  background: #f0f5fa;
+  color: #1e3799;
+  border: 2px solid #1e3799;
+  border-radius: 8px;
+  padding: 4px 10px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.cycle-btn.selected {
+  background: #0984e3;
+  color: #ffffff;
+  border-color: #1e3799;
+}
+
+.editor-tip {
+  font-size: 0.75rem;
+  color: #576574;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.4;
+}

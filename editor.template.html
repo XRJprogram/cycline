@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>CYCLINE - 独立谱面编辑器</title>
+  <link rel="stylesheet" href="./src/editor.css" />
+</head>
+<body>
+  <div id="editorApp">
+    <!-- Center interactive canvas -->
+    <canvas id="editorCanvas"></canvas>
+
+    <!-- UI Overlay (Pointer events pass through in middle) -->
+    <div class="editor-overlay">
+      <!-- 1. Top Header -->
+      <header class="editor-header">
+        <div class="header-left">
+          <span class="editor-brand">🛠️ CYCLINE 制谱器</span>
+          <span class="editor-stats" id="edStats">NOTES: 0 • 0.00s / 60.00s</span>
+        </div>
+
+        <div class="header-actions">
+          <input type="file" id="fileInput" accept=".json" style="display: none;" />
+          <button id="btnOpenFile" class="flat-btn">📂 打开谱面 (.json)</button>
+          <button id="btnSaveFile" class="flat-btn primary">💾 保存谱面文件</button>
+          <button id="btnNewChart" class="flat-btn">➕ 新建谱面</button>
+          <button id="btnTestPlay" class="flat-btn">🎮 试玩当前谱面</button>
+          <button id="btnBackToGame" class="flat-btn">🕹️ 打开游戏</button>
+        </div>
+      </header>
+
+      <!-- 2. Metadata Bar -->
+      <div class="editor-meta-bar">
+        <div class="meta-item">
+          <label>曲名:</label>
+          <input type="text" id="metaTitle" value="Clockwork Rhythm" placeholder="歌曲名称" />
+        </div>
+        <div class="meta-item">
+          <label>曲师:</label>
+          <input type="text" id="metaArtist" value="Cycline Sound Lab" placeholder="作曲家 / 谱师" />
+        </div>
+        <div class="meta-item">
+          <label>BPM:</label>
+          <input type="number" id="metaBpm" value="120" min="40" max="300" step="1" style="width: 70px;" />
+        </div>
+        <div class="meta-item">
+          <label>难度:</label>
+          <select id="metaDiff">
+            <option value="EASY">EASY (简单)</option>
+            <option value="NORMAL" selected>NORMAL (普通)</option>
+            <option value="HARD">HARD (困难)</option>
+            <option value="EX">EX (极难追加)</option>
+          </select>
+        </div>
+        <div class="meta-item">
+          <label>等级:</label>
+          <input type="text" id="metaLevel" value="5" style="width: 65px;" />
+        </div>
+      </div>
+
+      <!-- 3. Bottom Toolbar -->
+      <footer class="editor-bottom-bar">
+        <!-- Timeline scrub row -->
+        <div class="timeline-row">
+          <span id="lblCurrentTime">0.00s</span>
+          <input type="range" id="sliderTimeline" min="0" max="60" step="0.02" value="0" />
+          <span id="lblTotalTime">60.00s</span>
+        </div>
+
+        <!-- Tool controls row -->
+        <div class="tools-row">
+          <div style="display: flex; gap: 8px; align-items: center;">
+            <button id="btnPlayPause" class="flat-btn">▶ 播放预览</button>
+            <button id="btnRecord" class="flat-btn">🔴 实时打点录谱</button>
+          </div>
+
+          <div class="note-type-group">
+            <span style="font-size: 0.82rem; font-weight: 800;">类型:</span>
+            <button class="type-btn selected" data-type="tap">● TAP</button>
+            <button class="type-btn" data-type="hold">▬ HOLD</button>
+            <button class="type-btn" data-type="touch">○ TOUCH</button>
+          </div>
+
+          <!-- Concentric Multi-Cycle Orbit Controls -->
+          <div class="cycle-group" style="display: flex; align-items: center; gap: 4px;">
+            <span style="font-size: 0.82rem; font-weight: 800;">轨道:</span>
+            <button class="cycle-btn selected" data-cycle="0" id="btnCycle0">主轨 (C0)</button>
+            <button class="cycle-btn" data-cycle="1" id="btnCycle1">副轨 (C1)</button>
+          </div>
+
+          <div class="cycle-config-group" id="cycleConfigGroup" style="display: flex; align-items: center; gap: 6px; background: rgba(0,168,255,0.08); padding: 3px 8px; border-radius: 8px; border: 1px solid rgba(0,168,255,0.25);">
+            <label style="display: flex; align-items: center; gap: 4px; font-size: 0.8rem; font-weight: 800; cursor: pointer;">
+              <input type="checkbox" id="chkEnableCycle1" /> 启用副轨动画
+            </label>
+            <span style="font-size: 0.78rem; font-weight: 800;">起:</span>
+            <input type="number" id="inpCycle1Start" min="0" max="600" step="0.5" value="0.0" style="width: 58px; padding: 2px 3px; text-align: center; border: 1.5px solid #1e3799; border-radius: 6px; font-size: 0.78rem; font-weight: 700;" />
+            <button class="flat-btn" id="btnSetCycle1Start" style="padding: 2px 6px; font-size: 0.72rem; border-radius: 6px;">📍现时</button>
+            <span style="font-size: 0.78rem; font-weight: 800;">止:</span>
+            <input type="number" id="inpCycle1End" min="0" max="600" step="0.5" value="60.0" style="width: 58px; padding: 2px 3px; text-align: center; border: 1.5px solid #1e3799; border-radius: 6px; font-size: 0.78rem; font-weight: 700;" />
+            <button class="flat-btn" id="btnSetCycle1End" style="padding: 2px 6px; font-size: 0.72rem; border-radius: 6px;">📍现时</button>
+          </div>
+
+          <div class="hold-beats-group" id="holdBeatsGroup" style="display: none; align-items: center; gap: 4px;">
+            <span style="font-size: 0.82rem; font-weight: 800;">长按:</span>
+            <select id="selHoldBeats" style="padding: 3px 6px; border: 2px solid #2d3436; border-radius: 8px; font-weight: 800; background: #fff;">
+              <option value="0.5">半拍 (0.5拍)</option>
+              <option value="1" selected>1 拍</option>
+              <option value="2">2 拍</option>
+              <option value="4">4 拍 (1圈)</option>
+            </select>
+          </div>
+
+          <div class="snap-group">
+            <span style="font-size: 0.82rem; font-weight: 800;">对齐:</span>
+            <button class="snap-btn selected" data-snap="4">1/4 拍</button>
+            <button class="snap-btn" data-snap="8">1/8 拍</button>
+            <button class="snap-btn" data-snap="16">1/16 拍</button>
+          </div>
+
+          <div style="display: flex; gap: 8px;">
+            <button id="btnClearNotes" class="flat-btn danger">🗑️ 清空音符</button>
+          </div>
+        </div>
+
+        <!-- Help tip text -->
+        <div class="editor-tip">
+          💡 操作指南：在圆环上点击添加/删除音符；或开启“实时打点录谱”播放音乐时按 <b>空格键</b> 随节拍打点；保存后将 .json 放入 <code>charts/</code> 文件夹即可加入游戏！
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script type="module" src="./src/editor_main.ts"></script>
+</body>
+</html>

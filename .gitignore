@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.log
+scratch/
+scratch_edge_profile/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,2628 @@
+{
+  "id": "overclocked_orbit",
+  "title": "Overclocked Orbit",
+  "artist": "Cycline Rush",
+  "bpm": 160,
+  "offset": 1.5,
+  "rotationPeriod": 1.5,
+  "coverColor": "#2e86de",
+  "difficulties": {
+    "EASY": {
+      "level": "3+",
+      "notes": [
+        {
+          "id": 1,
+          "time": 1.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 2,
+          "time": 2.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 3,
+          "time": 3,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 4,
+          "time": 3.75,
+          "angle": 180,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 5,
+          "time": 4.5,
+          "angle": 0,
+          "type": "hold",
+          "judged": false,
+          "duration": 0.563
+        },
+        {
+          "id": 6,
+          "time": 5.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 7,
+          "time": 6,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 8,
+          "time": 6.75,
+          "angle": 180,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 9,
+          "time": 7.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 10,
+          "time": 7.875,
+          "angle": 90,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 11,
+          "time": 8.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 12,
+          "time": 8.625,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 13,
+          "time": 9,
+          "angle": 0,
+          "type": "hold",
+          "judged": false,
+          "duration": 0.563
+        },
+        {
+          "id": 14,
+          "time": 9.375,
+          "angle": 90,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 15,
+          "time": 9.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 16,
+          "time": 10.125,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 17,
+          "time": 10.5,
+          "angle": 0,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 18,
+          "time": 10.875,
+          "angle": 90,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 19,
+          "time": 11.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 20,
+          "time": 11.625,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 21,
+          "time": 12,
+          "angle": 0,
+          "type": "hold",
+          "judged": false,
+          "duration": 0.563
+        },
+        {
+          "id": 22,
+          "time": 12.375,
+          "angle": 90,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 23,
+          "time": 12.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 24,
+          "time": 13.125,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        }
+      ],
+      "color": "#00cec9"
+    },
+    "NORMAL": {
+      "level": 6,
+      "notes": [
+        {
+          "id": 1,
+          "time": 1.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 2,
+          "time": 1.875,
+          "angle": 90,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 3,
+          "time": 2.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 4,
+          "time": 2.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 5,
+          "time": 2.625,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 6,
+          "time": 2.813,
+          "angle": 45,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 7,
+          "time": 3,
+          "angle": 0,
+          "type": "hold",
+          "judged": false,
+          "duration": 0.563
+        },
+        {
+          "id": 8,
+          "time": 3.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 9,
+          "time": 4.125,
+          "angle": 315,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 10,
+          "time": 4.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 11,
+          "time": 4.875,
+          "angle": 90,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 12,
+          "time": 5.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 13,
+          "time": 5.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 14,
+          "time": 5.625,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 15,
+          "time": 5.813,
+          "angle": 45,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 16,
+          "time": 6,
+          "angle": 0,
+          "type": "hold",
+          "judged": false,
+          "duration": 0.563
+        },
+        {
+          "id": 17,
+          "time": 6.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 18,
+          "time": 7.125,
+          "angle": 315,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 19,
+          "time": 7.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 20,
+          "time": 7.875,
+          "angle": 90,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 21,
+          "time": 8.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 22,
+          "time": 8.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 23,
+          "time": 8.625,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 24,
+          "time": 8.813,
+          "angle": 45,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 25,
+          "time": 9,
+          "angle": 0,
+          "type": "hold",
+          "judged": false,
+          "duration": 0.563
+        },
+        {
+          "id": 26,
+          "time": 9.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 27,
+          "time": 10.125,
+          "angle": 315,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 28,
+          "time": 10.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 29,
+          "time": 10.875,
+          "angle": 90,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 30,
+          "time": 11.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 31,
+          "time": 11.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 32,
+          "time": 11.625,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 33,
+          "time": 11.813,
+          "angle": 45,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 34,
+          "time": 12,
+          "angle": 0,
+          "type": "hold",
+          "judged": false,
+          "duration": 0.563
+        },
+        {
+          "id": 35,
+          "time": 12.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 36,
+          "time": 13.125,
+          "angle": 315,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 37,
+          "time": 13.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 38,
+          "time": 13.875,
+          "angle": 90,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 39,
+          "time": 14.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 40,
+          "time": 14.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 41,
+          "time": 14.625,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 42,
+          "time": 14.813,
+          "angle": 45,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 43,
+          "time": 15,
+          "angle": 0,
+          "type": "hold",
+          "judged": false,
+          "duration": 0.563
+        },
+        {
+          "id": 44,
+          "time": 15.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 45,
+          "time": 16.125,
+          "angle": 315,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 46,
+          "time": 16.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 47,
+          "time": 16.875,
+          "angle": 90,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 48,
+          "time": 17.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 49,
+          "time": 17.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 50,
+          "time": 17.625,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 51,
+          "time": 17.813,
+          "angle": 45,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 52,
+          "time": 18,
+          "angle": 0,
+          "type": "hold",
+          "judged": false,
+          "duration": 0.563
+        },
+        {
+          "id": 53,
+          "time": 18.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 54,
+          "time": 19.125,
+          "angle": 315,
+          "type": "touch",
+          "judged": false
+        }
+      ],
+      "color": "#0984e3"
+    },
+    "HARD": {
+      "level": "8+",
+      "notes": [
+        {
+          "id": 1,
+          "time": 1.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 2,
+          "time": 1.688,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 3,
+          "time": 1.875,
+          "angle": 90,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 4,
+          "time": 2.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 5,
+          "time": 2.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 6,
+          "time": 2.438,
+          "angle": 285,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 7,
+          "time": 2.625,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 8,
+          "time": 2.813,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 9,
+          "time": 3,
+          "angle": 0,
+          "type": "hold",
+          "judged": false,
+          "duration": 0.75
+        },
+        {
+          "id": 10,
+          "time": 3.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 11,
+          "time": 3.938,
+          "angle": 285,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 12,
+          "time": 4.125,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 13,
+          "time": 4.313,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 14,
+          "time": 4.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 15,
+          "time": 4.688,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 16,
+          "time": 4.875,
+          "angle": 90,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 17,
+          "time": 5.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 18,
+          "time": 5.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 19,
+          "time": 5.438,
+          "angle": 285,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 20,
+          "time": 5.625,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 21,
+          "time": 5.813,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 22,
+          "time": 6,
+          "angle": 0,
+          "type": "hold",
+          "judged": false,
+          "duration": 0.75
+        },
+        {
+          "id": 23,
+          "time": 6.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 24,
+          "time": 6.938,
+          "angle": 285,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 25,
+          "time": 7.125,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 26,
+          "time": 7.313,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 27,
+          "time": 7.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 28,
+          "time": 7.688,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 29,
+          "time": 7.875,
+          "angle": 90,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 30,
+          "time": 8.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 31,
+          "time": 8.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 32,
+          "time": 8.438,
+          "angle": 285,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 33,
+          "time": 8.625,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 34,
+          "time": 8.813,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 35,
+          "time": 9,
+          "angle": 0,
+          "type": "hold",
+          "judged": false,
+          "duration": 0.75
+        },
+        {
+          "id": 36,
+          "time": 9.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 37,
+          "time": 9.938,
+          "angle": 285,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 38,
+          "time": 10.125,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 39,
+          "time": 10.313,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 40,
+          "time": 10.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 41,
+          "time": 10.688,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 42,
+          "time": 10.875,
+          "angle": 90,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 43,
+          "time": 11.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 44,
+          "time": 11.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 45,
+          "time": 11.438,
+          "angle": 285,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 46,
+          "time": 11.625,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 47,
+          "time": 11.813,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 48,
+          "time": 12,
+          "angle": 0,
+          "type": "hold",
+          "judged": false,
+          "duration": 0.75
+        },
+        {
+          "id": 49,
+          "time": 12.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 50,
+          "time": 12.938,
+          "angle": 285,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 51,
+          "time": 13.125,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 52,
+          "time": 13.313,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 53,
+          "time": 13.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 54,
+          "time": 13.688,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 55,
+          "time": 13.875,
+          "angle": 90,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 56,
+          "time": 14.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 57,
+          "time": 14.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 58,
+          "time": 14.438,
+          "angle": 285,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 59,
+          "time": 14.625,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 60,
+          "time": 14.813,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 61,
+          "time": 15,
+          "angle": 0,
+          "type": "hold",
+          "judged": false,
+          "duration": 0.75
+        },
+        {
+          "id": 62,
+          "time": 15.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 63,
+          "time": 15.938,
+          "angle": 285,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 64,
+          "time": 16.125,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 65,
+          "time": 16.313,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 66,
+          "time": 16.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 67,
+          "time": 16.688,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 68,
+          "time": 16.875,
+          "angle": 90,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 69,
+          "time": 17.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 70,
+          "time": 17.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 71,
+          "time": 17.438,
+          "angle": 285,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 72,
+          "time": 17.625,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 73,
+          "time": 17.813,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 74,
+          "time": 18,
+          "angle": 0,
+          "type": "hold",
+          "judged": false,
+          "duration": 0.75
+        },
+        {
+          "id": 75,
+          "time": 18.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 76,
+          "time": 18.938,
+          "angle": 285,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 77,
+          "time": 19.125,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 78,
+          "time": 19.313,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 79,
+          "time": 19.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 80,
+          "time": 19.688,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 81,
+          "time": 19.875,
+          "angle": 90,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 82,
+          "time": 20.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 83,
+          "time": 20.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 84,
+          "time": 20.438,
+          "angle": 285,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 85,
+          "time": 20.625,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 86,
+          "time": 20.813,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 87,
+          "time": 21,
+          "angle": 0,
+          "type": "hold",
+          "judged": false,
+          "duration": 0.75
+        },
+        {
+          "id": 88,
+          "time": 21.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 89,
+          "time": 21.938,
+          "angle": 285,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 90,
+          "time": 22.125,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 91,
+          "time": 22.313,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 92,
+          "time": 22.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 93,
+          "time": 22.688,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 94,
+          "time": 22.875,
+          "angle": 90,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 95,
+          "time": 23.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 96,
+          "time": 23.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 97,
+          "time": 23.438,
+          "angle": 285,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 98,
+          "time": 23.625,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 99,
+          "time": 23.813,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 100,
+          "time": 24,
+          "angle": 0,
+          "type": "hold",
+          "judged": false,
+          "duration": 0.75
+        },
+        {
+          "id": 101,
+          "time": 24.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 102,
+          "time": 24.938,
+          "angle": 285,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 103,
+          "time": 25.125,
+          "angle": 270,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 104,
+          "time": 25.313,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        }
+      ],
+      "color": "#2e86de"
+    },
+    "EX": {
+      "level": "9+",
+      "notes": [
+        {
+          "id": 1,
+          "time": 1.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 2,
+          "time": 1.688,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 3,
+          "time": 1.875,
+          "angle": 135,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 4,
+          "time": 2.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 5,
+          "time": 2.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 6,
+          "time": 2.438,
+          "angle": 225,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 7,
+          "time": 2.625,
+          "angle": 315,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 8,
+          "time": 2.813,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 9,
+          "time": 3,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 10,
+          "time": 3.094,
+          "angle": 22.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 11,
+          "time": 3.188,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 12,
+          "time": 3.281,
+          "angle": 67.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 13,
+          "time": 3.375,
+          "angle": 135,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 14,
+          "time": 3.469,
+          "angle": 112.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 15,
+          "time": 3.563,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 16,
+          "time": 3.656,
+          "angle": 157.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 17,
+          "time": 3.75,
+          "angle": 180,
+          "type": "hold",
+          "judged": false,
+          "duration": 1.125
+        },
+        {
+          "id": 18,
+          "time": 4.875,
+          "angle": 135,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 19,
+          "time": 5.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 20,
+          "time": 5.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 21,
+          "time": 5.438,
+          "angle": 225,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 22,
+          "time": 5.625,
+          "angle": 315,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 23,
+          "time": 5.813,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 24,
+          "time": 6,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 25,
+          "time": 6.094,
+          "angle": 22.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 26,
+          "time": 6.188,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 27,
+          "time": 6.281,
+          "angle": 67.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 28,
+          "time": 6.375,
+          "angle": 135,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 29,
+          "time": 6.469,
+          "angle": 112.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 30,
+          "time": 6.563,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 31,
+          "time": 6.656,
+          "angle": 157.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 32,
+          "time": 6.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 33,
+          "time": 6.844,
+          "angle": 202.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 34,
+          "time": 6.938,
+          "angle": 225,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 35,
+          "time": 7.031,
+          "angle": 247.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 36,
+          "time": 7.125,
+          "angle": 315,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 37,
+          "time": 7.219,
+          "angle": 292.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 38,
+          "time": 7.313,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 39,
+          "time": 7.406,
+          "angle": 337.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 40,
+          "time": 7.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 41,
+          "time": 7.688,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 42,
+          "time": 7.875,
+          "angle": 135,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 43,
+          "time": 8.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 44,
+          "time": 8.25,
+          "angle": 180,
+          "type": "hold",
+          "judged": false,
+          "duration": 1.125
+        },
+        {
+          "id": 45,
+          "time": 9.375,
+          "angle": 135,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 46,
+          "time": 9.469,
+          "angle": 112.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 47,
+          "time": 9.563,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 48,
+          "time": 9.656,
+          "angle": 157.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 49,
+          "time": 9.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 50,
+          "time": 9.844,
+          "angle": 202.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 51,
+          "time": 9.938,
+          "angle": 225,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 52,
+          "time": 10.031,
+          "angle": 247.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 53,
+          "time": 10.125,
+          "angle": 315,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 54,
+          "time": 10.219,
+          "angle": 292.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 55,
+          "time": 10.313,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 56,
+          "time": 10.406,
+          "angle": 337.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 57,
+          "time": 10.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 58,
+          "time": 10.688,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 59,
+          "time": 10.875,
+          "angle": 135,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 60,
+          "time": 11.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 61,
+          "time": 11.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 62,
+          "time": 11.438,
+          "angle": 225,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 63,
+          "time": 11.625,
+          "angle": 315,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 64,
+          "time": 11.813,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 65,
+          "time": 12,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 66,
+          "time": 12.094,
+          "angle": 22.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 67,
+          "time": 12.188,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 68,
+          "time": 12.281,
+          "angle": 67.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 69,
+          "time": 12.375,
+          "angle": 135,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 70,
+          "time": 12.469,
+          "angle": 112.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 71,
+          "time": 12.563,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 72,
+          "time": 12.656,
+          "angle": 157.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 73,
+          "time": 12.75,
+          "angle": 180,
+          "type": "hold",
+          "judged": false,
+          "duration": 1.125
+        },
+        {
+          "id": 74,
+          "time": 13.875,
+          "angle": 135,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 75,
+          "time": 14.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 76,
+          "time": 14.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 77,
+          "time": 14.438,
+          "angle": 225,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 78,
+          "time": 14.625,
+          "angle": 315,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 79,
+          "time": 14.813,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 80,
+          "time": 15,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 81,
+          "time": 15.094,
+          "angle": 22.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 82,
+          "time": 15.188,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 83,
+          "time": 15.281,
+          "angle": 67.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 84,
+          "time": 15.375,
+          "angle": 135,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 85,
+          "time": 15.469,
+          "angle": 112.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 86,
+          "time": 15.563,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 87,
+          "time": 15.656,
+          "angle": 157.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 88,
+          "time": 15.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 89,
+          "time": 15.844,
+          "angle": 202.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 90,
+          "time": 15.938,
+          "angle": 225,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 91,
+          "time": 16.031,
+          "angle": 247.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 92,
+          "time": 16.125,
+          "angle": 315,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 93,
+          "time": 16.219,
+          "angle": 292.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 94,
+          "time": 16.313,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 95,
+          "time": 16.406,
+          "angle": 337.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 96,
+          "time": 16.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 97,
+          "time": 16.688,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 98,
+          "time": 16.875,
+          "angle": 135,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 99,
+          "time": 17.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 100,
+          "time": 17.25,
+          "angle": 180,
+          "type": "hold",
+          "judged": false,
+          "duration": 1.125
+        },
+        {
+          "id": 101,
+          "time": 18.375,
+          "angle": 135,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 102,
+          "time": 18.469,
+          "angle": 112.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 103,
+          "time": 18.563,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 104,
+          "time": 18.656,
+          "angle": 157.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 105,
+          "time": 18.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 106,
+          "time": 18.844,
+          "angle": 202.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 107,
+          "time": 18.938,
+          "angle": 225,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 108,
+          "time": 19.031,
+          "angle": 247.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 109,
+          "time": 19.125,
+          "angle": 315,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 110,
+          "time": 19.219,
+          "angle": 292.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 111,
+          "time": 19.313,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 112,
+          "time": 19.406,
+          "angle": 337.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 113,
+          "time": 19.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 114,
+          "time": 19.688,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 115,
+          "time": 19.875,
+          "angle": 135,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 116,
+          "time": 20.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 117,
+          "time": 20.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 118,
+          "time": 20.438,
+          "angle": 225,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 119,
+          "time": 20.625,
+          "angle": 315,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 120,
+          "time": 20.813,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 121,
+          "time": 21,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 122,
+          "time": 21.094,
+          "angle": 22.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 123,
+          "time": 21.188,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 124,
+          "time": 21.281,
+          "angle": 67.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 125,
+          "time": 21.375,
+          "angle": 135,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 126,
+          "time": 21.469,
+          "angle": 112.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 127,
+          "time": 21.563,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 128,
+          "time": 21.656,
+          "angle": 157.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 129,
+          "time": 21.75,
+          "angle": 180,
+          "type": "hold",
+          "judged": false,
+          "duration": 1.125
+        },
+        {
+          "id": 130,
+          "time": 22.875,
+          "angle": 135,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 131,
+          "time": 23.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 132,
+          "time": 23.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 133,
+          "time": 23.438,
+          "angle": 225,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 134,
+          "time": 23.625,
+          "angle": 315,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 135,
+          "time": 23.813,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 136,
+          "time": 24,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 137,
+          "time": 24.094,
+          "angle": 22.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 138,
+          "time": 24.188,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 139,
+          "time": 24.281,
+          "angle": 67.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 140,
+          "time": 24.375,
+          "angle": 135,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 141,
+          "time": 24.469,
+          "angle": 112.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 142,
+          "time": 24.563,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 143,
+          "time": 24.656,
+          "angle": 157.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 144,
+          "time": 24.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 145,
+          "time": 24.844,
+          "angle": 202.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 146,
+          "time": 24.938,
+          "angle": 225,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 147,
+          "time": 25.031,
+          "angle": 247.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 148,
+          "time": 25.125,
+          "angle": 315,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 149,
+          "time": 25.219,
+          "angle": 292.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 150,
+          "time": 25.313,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 151,
+          "time": 25.406,
+          "angle": 337.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 152,
+          "time": 25.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 153,
+          "time": 25.688,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 154,
+          "time": 25.875,
+          "angle": 135,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 155,
+          "time": 26.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 156,
+          "time": 26.25,
+          "angle": 180,
+          "type": "hold",
+          "judged": false,
+          "duration": 1.125
+        },
+        {
+          "id": 157,
+          "time": 27.375,
+          "angle": 135,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 158,
+          "time": 27.469,
+          "angle": 112.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 159,
+          "time": 27.563,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 160,
+          "time": 27.656,
+          "angle": 157.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 161,
+          "time": 27.75,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 162,
+          "time": 27.844,
+          "angle": 202.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 163,
+          "time": 27.938,
+          "angle": 225,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 164,
+          "time": 28.031,
+          "angle": 247.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 165,
+          "time": 28.125,
+          "angle": 315,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 166,
+          "time": 28.219,
+          "angle": 292.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 167,
+          "time": 28.313,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 168,
+          "time": 28.406,
+          "angle": 337.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 169,
+          "time": 28.5,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 170,
+          "time": 28.688,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 171,
+          "time": 28.875,
+          "angle": 135,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 172,
+          "time": 29.063,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 173,
+          "time": 29.25,
+          "angle": 180,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 174,
+          "time": 29.438,
+          "angle": 225,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 175,
+          "time": 29.625,
+          "angle": 315,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 176,
+          "time": 29.813,
+          "angle": 315,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 177,
+          "time": 30,
+          "angle": 0,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 178,
+          "time": 30.094,
+          "angle": 22.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 179,
+          "time": 30.188,
+          "angle": 45,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 180,
+          "time": 30.281,
+          "angle": 67.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 181,
+          "time": 30.375,
+          "angle": 135,
+          "type": "touch",
+          "judged": false
+        },
+        {
+          "id": 182,
+          "time": 30.469,
+          "angle": 112.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 183,
+          "time": 30.563,
+          "angle": 135,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 184,
+          "time": 30.656,
+          "angle": 157.5,
+          "type": "tap",
+          "judged": false
+        },
+        {
+          "id": 185,
+          "time": 30.75,
+          "angle": 180,
+          "type": "hold",
+          "judged": false,
+          "duration": 1.125
+        }
+      ],
+      "color": "#5f27cd"
+    }
+  }
+}
